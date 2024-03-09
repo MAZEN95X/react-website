@@ -1,0 +1,10 @@
+.navbar .active {
+  font-weight: bold !important;
+  color: white !important;
+  background-color: #0aad0a !important;
+  border-radius: 10px;
+  padding-left: 10px !important;
+}
+.span-bg {
+  background-color: #0aad0a !important;
+}

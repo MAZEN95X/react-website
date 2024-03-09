@@ -1,0 +1,8 @@
+.forgets {
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 20px;
+}
+.forgets:hover {
+  color: rgb(28, 198, 28) !important;
+}
