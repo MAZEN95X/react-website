@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-website/static/css/main.78b187a0.css",
+    "main.js": "/react-website/static/js/main.a4f0a280.js",
+    "static/media/fa-solid-900.ttf": "/react-website/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/grocery-banner.png": "/react-website/static/media/grocery-banner.2c56649c9cbe2e19b86f.png",
+    "static/media/1.jpg": "/react-website/static/media/1.94d84a754d32011e42e7.jpg",
+    "static/media/fa-brands-400.ttf": "/react-website/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/2.jpg": "/react-website/static/media/2.d3a7de324b645ffee97a.jpg",
+    "static/media/grocery-banner-2.jpeg": "/react-website/static/media/grocery-banner-2.7a4a78a90acc3d5847cb.jpeg",
+    "static/media/fa-solid-900.woff2": "/react-website/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/react-website/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/error.svg": "/react-website/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
+    "static/media/fa-regular-400.ttf": "/react-website/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/react-website/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/freshcart-logo.svg": "/react-website/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "static/media/fa-v4compatibility.ttf": "/react-website/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/react-website/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/slick.svg": "/react-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-website/index.html",
+    "main.78b187a0.css.map": "/react-website/static/css/main.78b187a0.css.map",
+    "main.a4f0a280.js.map": "/react-website/static/js/main.a4f0a280.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b187a0.css",
+    "static/js/main.a4f0a280.js"
+  ]
+}
