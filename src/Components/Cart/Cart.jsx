@@ -1,4 +1,5 @@
 import axios from "axios";
+import img1 from "../../Assets/images/cartempty.png";
 import React, { useContext, useEffect, useState } from "react";
 import CartProduct from "../CartProduct/CartProduct";
 import { Link } from "react-router-dom";
@@ -165,18 +166,12 @@ export default function Cart() {
         <title>Fresh Cart | Cart</title>
       </Helmet>
       {isLoading ? (
-        <>
-          <div className="loading position-fixed top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center bg-white ">
-            <span className="loader"></span>
-          </div>
-        </>
+        <div className="loading position-fixed top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center bg-white ">
+          <span className="loader"></span>
+        </div>
       ) : (
         <>
-          {cart.data?.products.length < 0 ? (
-            <h2 className="alert alert-warning text-center  my-5">
-              No products in your cart
-            </h2>
-          ) : (
+          {cart.data?.products && cart.data?.products.length > 0 ? (
             <div className="my-5">
               <button
                 onClick={clearCart}
@@ -205,6 +200,10 @@ export default function Cart() {
                 </Link>
                 <p>Total cart Price: {cart.data?.totalCartPrice} EGP</p>
               </div>
+            </div>
+          ) : (
+            <div className="d-flex justify-content-center  align-items-center ">
+              <img src={img1} alt="" />
             </div>
           )}
         </>

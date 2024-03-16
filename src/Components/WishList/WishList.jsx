@@ -1,6 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 import React, { useContext, useEffect, useState } from "react";
+import img1 from "../../Assets/images/wishlistempty.png";
 import { Helmet } from "react-helmet";
 import { toast } from "react-toastify";
 import Swal from "sweetalert2";
@@ -137,10 +138,8 @@ export default function WishList() {
               </div>
             </div>
           ) : (
-            <div className="container">
-              <h2 className="alert alert-warning text-center my-5">
-                No items in your WishList
-              </h2>
+            <div className="d-flex  justify-content-center  align-items-center py-5 ">
+              <img src={img1} alt="" />
             </div>
           )}
         </>
